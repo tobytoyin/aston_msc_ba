@@ -1,0 +1,49 @@
+{
+    "driver_path": "C:\\Users\\tobyt\\Projects\\aston_msc_ba\\descriptive_scrapper\\chromedriver.exe",
+    "target_url": "https://www.motors.co.uk/",
+    "page_1": {
+        "postcode": {
+            "css": [
+                "div[class*='postcode'] > input"
+            ],
+            "write": "b47et"
+        },
+        "make": {
+            "css": [
+                "div[class*='makemodel'] > select"
+            ],
+            "write": "Mercedes-Benz"
+        },
+        "model": {
+            "css": [
+                "select[id='Model']"
+            ],
+            "write": "C Class"
+        },
+        "cookies": {
+            "css": [
+                "button[id='onetrust-accept-btn-handler']"
+            ],
+            "press": null
+        },
+        "options": {
+            "css": [
+                "button[class*='btn--3rd']"
+            ],
+            "press": null
+        },
+        "age": {
+            "css": [
+                "select[id='Age']"
+            ],
+            "write": "up to 5 years old"
+        },
+        "next": {
+            "css": [
+                "button[class*='btn--spinner']",
+                "button[class*='search']"
+            ],
+            "press": null
+        }
+    }
+}
